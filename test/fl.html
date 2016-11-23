@@ -3,21 +3,24 @@
 	<head>
 		<meta charset="UTF-8">
 		<script type="text/javascript" src="https://code.jquery.com/jquery-2.2.4.min.js" ></script>
-		<title></title>
+		<title>222</title>
 		<script>
 			function haha(){
 //				alert('haahha');
 	//			document.getElementById("rose").load("http://bbdoo.github.io/some/rose.html");
 				$("#rose").load("../some/rose.html");
 			}
+			window.onload=haha;
 		</script>
+		
 	</head>
 	<body>
-		<button onclick="haha()" >haha</button>
 		
+		<script>
+			haha();
+		</script>
 		<div id="rose">
 			
-			<p>hahahahaha</p>
 		</div>
 	</body>
 </html>
